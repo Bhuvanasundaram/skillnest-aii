@@ -1,0 +1,1 @@
+The project bundles the Three.js build supplied with the original KAGE starter project in kage-world/three.min.js. Preserve applicable upstream notices when redistributing.

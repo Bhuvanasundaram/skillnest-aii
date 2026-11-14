@@ -1,0 +1,22 @@
+SKILLNEST — Vercel deployment
+
+This is a Vite project. Deploy the contents of this folder (not the outer ZIP folder) to Vercel.
+
+Git-based deployment:
+1. Extract this ZIP.
+2. Create a GitHub repository and upload the CONTENTS of SKILLNEST-VERCEL (package.json, index.html, kage-world/, vercel.json, etc.) to the repository root.
+3. In Vercel, choose Add New → Project and import that GitHub repository.
+4. Framework Preset: Vite. Root Directory: ./ (repository root).
+5. Build Command: npm run build. Output Directory: dist. Install Command: npm install.
+6. Click Deploy.
+
+The included vercel.json already declares the Vite build settings. Vercel should also detect them automatically.
+
+CLI alternative (from this folder):
+  npm install
+  npm run build
+  npm i -g vercel
+  vercel
+  vercel --prod
+
+The first `vercel` command creates a preview deployment; `vercel --prod` deploys to production.
